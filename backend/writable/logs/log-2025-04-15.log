@@ -1,0 +1,333 @@
+CRITICAL - 2025-04-15 06:55:29 --> Error: Class "App\Controllers\UserModel" not found
+[Method: GET, Route: api/login]
+in APPPATH\Controllers\Auth.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->login()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\Mritunjay\\project-tyriod-dashboard\\backend\\public\\index.php')
+CRITICAL - 2025-04-15 06:55:38 --> Error: Class "App\Controllers\UserModel" not found
+[Method: GET, Route: api/login]
+in APPPATH\Controllers\Auth.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->login()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\Mritunjay\\project-tyriod-dashboard\\backend\\public\\index.php')
+CRITICAL - 2025-04-15 06:56:09 --> Error: Class "App\Controllers\UserModel" not found
+[Method: GET, Route: api/login]
+in APPPATH\Controllers\Auth.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->login()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\Mritunjay\\project-tyriod-dashboard\\backend\\public\\index.php')
+CRITICAL - 2025-04-15 06:57:04 --> Error: Class "App\Controllers\UserModel" not found
+[Method: GET, Route: api/login]
+in APPPATH\Controllers\Auth.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->login()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\Mritunjay\\project-tyriod-dashboard\\backend\\public\\index.php')
+CRITICAL - 2025-04-15 06:57:06 --> Error: Class "App\Controllers\UserModel" not found
+[Method: GET, Route: api/login]
+in APPPATH\Controllers\Auth.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->login()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\Mritunjay\\project-tyriod-dashboard\\backend\\public\\index.php')
+CRITICAL - 2025-04-15 06:57:11 --> Error: Class "App\Controllers\UserModel" not found
+[Method: GET, Route: api/login]
+in APPPATH\Controllers\Auth.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->login()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\Mritunjay\\project-tyriod-dashboard\\backend\\public\\index.php')
+CRITICAL - 2025-04-15 06:57:25 --> Error: Class "App\Controllers\UserModel" not found
+[Method: GET, Route: api/login]
+in APPPATH\Controllers\Auth.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->login()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\Mritunjay\\project-tyriod-dashboard\\backend\\public\\index.php')
+CRITICAL - 2025-04-15 06:57:30 --> Error: Class "App\Controllers\UserModel" not found
+[Method: GET, Route: api/login]
+in APPPATH\Controllers\Auth.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->login()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\Mritunjay\\project-tyriod-dashboard\\backend\\public\\index.php')
+CRITICAL - 2025-04-15 17:23:50 --> Error: Class "App\Controllers\UserModel" not found
+[Method: GET, Route: api/login]
+in APPPATH\Controllers\Auth.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->login()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\Mritunjay\\project-tyriod-dashboard\\backend\\public\\index.php')
+CRITICAL - 2025-04-15 17:26:19 --> Error: Class "App\Controllers\UserModel" not found
+[Method: GET, Route: api/login]
+in APPPATH\Controllers\Auth.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->login()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\Mritunjay\\project-tyriod-dashboard\\backend\\public\\index.php')
+CRITICAL - 2025-04-15 17:27:19 --> Error: Class "App\Controllers\UserModel" not found
+[Method: GET, Route: api/login]
+in APPPATH\Controllers\Auth.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->login()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\Mritunjay\\project-tyriod-dashboard\\backend\\public\\index.php')
+CRITICAL - 2025-04-15 17:28:24 --> Error: Class "App\Controllers\UserModel" not found
+[Method: GET, Route: api/login]
+in APPPATH\Controllers\Auth.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->login()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\Mritunjay\\project-tyriod-dashboard\\backend\\public\\index.php')
+CRITICAL - 2025-04-15 17:28:27 --> Error: Class "App\Controllers\UserModel" not found
+[Method: GET, Route: api/login]
+in APPPATH\Controllers\Auth.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->login()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\Mritunjay\\project-tyriod-dashboard\\backend\\public\\index.php')
+CRITICAL - 2025-04-15 17:31:15 --> Error: Class "App\Models\User" not found
+[Method: GET, Route: api/login]
+in APPPATH\Controllers\Auth.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->login()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\Mritunjay\\project-tyriod-dashboard\\backend\\public\\index.php')
+CRITICAL - 2025-04-15 17:31:34 --> Error: Class "App\Models\User" not found
+[Method: GET, Route: api/login]
+in APPPATH\Controllers\Auth.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->login()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\Mritunjay\\project-tyriod-dashboard\\backend\\public\\index.php')
+CRITICAL - 2025-04-15 17:31:42 --> ErrorException: Undefined variable $ret
+[Method: GET, Route: api/login]
+in APPPATH\Controllers\Auth.php on line 21.
+ 1 APPPATH\Controllers\Auth.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ret', 'D:\\xampp\\Mritunjay\\project-tyriod-dashboard\\backend\\app\\Controllers\\Auth.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->login()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\Mritunjay\\project-tyriod-dashboard\\backend\\public\\index.php')
+CRITICAL - 2025-04-15 17:32:07 --> Error: Class "App\Models\User" not found
+[Method: GET, Route: api/login]
+in APPPATH\Controllers\Auth.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->login()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\Mritunjay\\project-tyriod-dashboard\\backend\\public\\index.php')
+CRITICAL - 2025-04-15 17:33:06 --> Error: Class "App\Models\UserModel" not found
+[Method: GET, Route: api/login]
+in APPPATH\Controllers\Auth.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->login()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\Mritunjay\\project-tyriod-dashboard\\backend\\public\\index.php')
+ERROR - 2025-04-15 17:33:23 --> mysqli_sql_exception: Table 'tyriod.users' doesn't exist in D:\xampp\Mritunjay\project-tyriod-dashboard\backend\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\system\BaseModel.php(713): CodeIgniter\Model->doFirst()
+#6 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\app\Models\UserModel.php(20): CodeIgniter\BaseModel->first()
+#7 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\app\Controllers\Auth.php(20): App\Models\UserModel::getUsingEmail(NULL)
+#8 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\system\CodeIgniter.php(933): App\Controllers\Auth->login()
+#9 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#10 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\system\rewrite.php(44): require_once('D:\\xampp\\Mritun...')
+#15 {main}
+CRITICAL - 2025-04-15 17:33:23 --> Error: Call to a member function getFirstRow() on bool
+[Method: GET, Route: api/login]
+in SYSTEMPATH\Model.php on line 330.
+ 1 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 2 APPPATH\Models\UserModel.php(20): CodeIgniter\BaseModel->first()
+ 3 APPPATH\Controllers\Auth.php(20): App\Models\UserModel::getUsingEmail(null)
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->login()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\Mritunjay\\project-tyriod-dashboard\\backend\\public\\index.php')
+ERROR - 2025-04-15 18:06:31 --> mysqli_sql_exception: Table 'tyriod.users' doesn't exist in D:\xampp\Mritunjay\project-tyriod-dashboard\backend\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\system\BaseModel.php(713): CodeIgniter\Model->doFirst()
+#6 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\app\Models\UserModel.php(20): CodeIgniter\BaseModel->first()
+#7 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\app\Controllers\Auth.php(20): App\Models\UserModel::getUsingEmail(NULL)
+#8 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\system\CodeIgniter.php(933): App\Controllers\Auth->login()
+#9 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#10 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\system\rewrite.php(44): require_once('D:\\xampp\\Mritun...')
+#15 {main}
+CRITICAL - 2025-04-15 18:06:31 --> Error: Call to a member function getFirstRow() on bool
+[Method: GET, Route: api/login]
+in SYSTEMPATH\Model.php on line 330.
+ 1 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 2 APPPATH\Models\UserModel.php(20): CodeIgniter\BaseModel->first()
+ 3 APPPATH\Controllers\Auth.php(20): App\Models\UserModel::getUsingEmail(null)
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->login()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\Mritunjay\\project-tyriod-dashboard\\backend\\public\\index.php')
+ERROR - 2025-04-15 18:09:12 --> mysqli_sql_exception: Table 'tyriod.users' doesn't exist in D:\xampp\Mritunjay\project-tyriod-dashboard\backend\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\system\BaseModel.php(713): CodeIgniter\Model->doFirst()
+#6 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\app\Models\UserModel.php(20): CodeIgniter\BaseModel->first()
+#7 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\app\Controllers\Auth.php(20): App\Models\UserModel::getUsingEmail(NULL)
+#8 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\system\CodeIgniter.php(933): App\Controllers\Auth->login()
+#9 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#10 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\system\rewrite.php(44): require_once('D:\\xampp\\Mritun...')
+#15 {main}
+CRITICAL - 2025-04-15 18:09:12 --> Error: Call to a member function getFirstRow() on bool
+[Method: GET, Route: api/login]
+in SYSTEMPATH\Model.php on line 330.
+ 1 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 2 APPPATH\Models\UserModel.php(20): CodeIgniter\BaseModel->first()
+ 3 APPPATH\Controllers\Auth.php(20): App\Models\UserModel::getUsingEmail(null)
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->login()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\Mritunjay\\project-tyriod-dashboard\\backend\\public\\index.php')
+CRITICAL - 2025-04-15 18:10:05 --> ErrorException: Namespace declaration statement has to be the very first statement or after any declare call in the script
+[Method: GET, Route: api/login]
+in APPPATH\Models\UserModel.php on line 6.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-04-15 18:10:32 --> ErrorException: Namespace declaration statement has to be the very first statement or after any declare call in the script
+[Method: GET, Route: api/login]
+in APPPATH\Controllers\Auth.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+ERROR - 2025-04-15 18:10:48 --> mysqli_sql_exception: Table 'tyriod.users' doesn't exist in D:\xampp\Mritunjay\project-tyriod-dashboard\backend\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\system\BaseModel.php(713): CodeIgniter\Model->doFirst()
+#6 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\app\Models\UserModel.php(20): CodeIgniter\BaseModel->first()
+#7 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\app\Controllers\Auth.php(20): App\Models\UserModel::getUsingEmail(NULL)
+#8 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\system\CodeIgniter.php(933): App\Controllers\Auth->login()
+#9 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#10 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\system\rewrite.php(44): require_once('D:\\xampp\\Mritun...')
+#15 {main}
+CRITICAL - 2025-04-15 18:10:48 --> Error: Call to a member function getFirstRow() on bool
+[Method: GET, Route: api/login]
+in SYSTEMPATH\Model.php on line 330.
+ 1 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 2 APPPATH\Models\UserModel.php(20): CodeIgniter\BaseModel->first()
+ 3 APPPATH\Controllers\Auth.php(20): App\Models\UserModel::getUsingEmail(null)
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->login()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\Mritunjay\\project-tyriod-dashboard\\backend\\public\\index.php')
+CRITICAL - 2025-04-15 18:12:36 --> Error: Class "App\Controllers\User" not found
+[Method: GET, Route: api/login]
+in APPPATH\Controllers\Auth.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->login()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\Mritunjay\\project-tyriod-dashboard\\backend\\public\\index.php')
+CRITICAL - 2025-04-15 18:12:38 --> Error: Class "App\Controllers\User" not found
+[Method: GET, Route: api/login]
+in APPPATH\Controllers\Auth.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->login()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\Mritunjay\\project-tyriod-dashboard\\backend\\public\\index.php')

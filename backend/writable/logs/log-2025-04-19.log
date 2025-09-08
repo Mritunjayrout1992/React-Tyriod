@@ -1,0 +1,112 @@
+ERROR - 2025-04-19 08:28:49 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\xampp\Mritunjay\project-tyriod-dashboard\backend\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'tyriod', 3306, '', 0)
+#1 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\system\BaseModel.php(713): CodeIgniter\Model->doFirst()
+#6 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\app\Models\UserModel.php(18): CodeIgniter\BaseModel->first()
+#7 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\app\Controllers\Auth.php(23): App\Models\UserModel->getUsingEmail('gdsuhg')
+#8 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\system\CodeIgniter.php(933): App\Controllers\Auth->login()
+#9 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#10 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\system\rewrite.php(44): require_once('D:\\xampp\\Mritun...')
+#15 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\xampp\Mritunjay\project-tyriod-dashboard\backend\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\system\BaseModel.php(713): CodeIgniter\Model->doFirst()
+#5 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\app\Models\UserModel.php(18): CodeIgniter\BaseModel->first()
+#6 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\app\Controllers\Auth.php(23): App\Models\UserModel->getUsingEmail('gdsuhg')
+#7 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\system\CodeIgniter.php(933): App\Controllers\Auth->login()
+#8 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#9 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\system\rewrite.php(44): require_once('D:\\xampp\\Mritun...')
+#14 {main}
+CRITICAL - 2025-04-19 08:28:49 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: POST, Route: api/login]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Models\UserModel.php(18): CodeIgniter\BaseModel->first()
+ 6 APPPATH\Controllers\Auth.php(23): App\Models\UserModel->getUsingEmail('gdsuhg')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->login()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\Mritunjay\\project-tyriod-dashboard\\backend\\public\\index.php')
+ERROR - 2025-04-19 08:29:07 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\xampp\Mritunjay\project-tyriod-dashboard\backend\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'tyriod', 3306, '', 0)
+#1 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\system\BaseModel.php(713): CodeIgniter\Model->doFirst()
+#6 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\app\Models\UserModel.php(18): CodeIgniter\BaseModel->first()
+#7 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\app\Controllers\Auth.php(23): App\Models\UserModel->getUsingEmail('gdsuhg')
+#8 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\system\CodeIgniter.php(933): App\Controllers\Auth->login()
+#9 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#10 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\system\rewrite.php(44): require_once('D:\\xampp\\Mritun...')
+#15 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\xampp\Mritunjay\project-tyriod-dashboard\backend\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\system\BaseModel.php(713): CodeIgniter\Model->doFirst()
+#5 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\app\Models\UserModel.php(18): CodeIgniter\BaseModel->first()
+#6 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\app\Controllers\Auth.php(23): App\Models\UserModel->getUsingEmail('gdsuhg')
+#7 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\system\CodeIgniter.php(933): App\Controllers\Auth->login()
+#8 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#9 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 D:\xampp\Mritunjay\project-tyriod-dashboard\backend\system\rewrite.php(44): require_once('D:\\xampp\\Mritun...')
+#14 {main}
+CRITICAL - 2025-04-19 08:29:07 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: POST, Route: api/login]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Models\UserModel.php(18): CodeIgniter\BaseModel->first()
+ 6 APPPATH\Controllers\Auth.php(23): App\Models\UserModel->getUsingEmail('gdsuhg')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->login()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\Mritunjay\\project-tyriod-dashboard\\backend\\public\\index.php')

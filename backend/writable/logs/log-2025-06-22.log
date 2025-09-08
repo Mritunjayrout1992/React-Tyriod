@@ -1,0 +1,29 @@
+WARNING - 2025-06-22 14:42:12 --> [DEPRECATED] Creation of dynamic property App\Controllers\Auth::$UserModel is deprecated in APPPATH\Controllers\Auth.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Auth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\Mritunjay\\project-tyriod-dashboard\\backend\\public\\index.php')
+WARNING - 2025-06-22 14:44:19 --> [DEPRECATED] Creation of dynamic property App\Controllers\Auth::$UserModel is deprecated in APPPATH\Controllers\Auth.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Auth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\Mritunjay\\project-tyriod-dashboard\\backend\\public\\index.php')
+CRITICAL - 2025-06-22 14:58:08 --> ErrorException: Undefined array key "color"
+[Method: PUT, Route: api/catalogue/PT-CPE-155]
+in APPPATH\Controllers\Catalogue.php on line 242.
+ 1 APPPATH\Controllers\Catalogue.php(242): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "color"', 'D:\\xampp\\Mritunjay\\project-tyriod-dashboard\\backend\\app\\Controllers\\Catalogue.php', 242)
+ 2 APPPATH\Controllers\Catalogue.php(207): App\Controllers\Catalogue->updateItemData([...], [])
+ 3 APPPATH\Controllers\Catalogue.php(112): App\Controllers\Catalogue->processUpdateOps('PT-CPE-155', [...], [])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Catalogue->update('PT-CPE-155')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogue))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\Mritunjay\\project-tyriod-dashboard\\backend\\public\\index.php')
