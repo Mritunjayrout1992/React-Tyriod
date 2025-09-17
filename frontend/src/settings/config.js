@@ -3,7 +3,7 @@ import Catalogue from "../component/Catalogue";
 const config = {
     "LogoName" : "Tyriod Clothing",
     "Api" : {
-        "BaseUrl": "http://localhost:8080/api",
+        "BaseUrl": "tyriod-api.kesug.com",
         "Endpoints": {
             Login: "/login",
             Register: "/register",
